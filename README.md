@@ -1,4 +1,4 @@
-# FlappyBird_DQN
+# Reinforcement Learning using Deep Q-Learning for FlappyBird 
 
 https://user-images.githubusercontent.com/15308488/181633477-195a9e7e-c1b7-4db8-bb1f-089347b47cfb.mp4
 
