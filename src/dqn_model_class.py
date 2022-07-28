@@ -7,15 +7,15 @@ class DeepQNetwork(nn.Module):
         super(DeepQNetwork, self).__init__()
         #   Create layers
         self.fc1 = nn.Linear(in_features=2, out_features=64)
-        self.fc2 = nn.Linear(in_features=64, out_features=32)
-        self.out = nn.Linear(in_features=32, out_features=2)
+        #self.fc2 = nn.Linear(in_features=64, out_features=128)
+        self.out = nn.Linear(in_features=64, out_features=2)
 
 
     def forward(self, state):
         #   Implement forward pass
         state = torch.as_tensor(state, dtype = torch.float32)
         state = F.relu(self.fc1(state))
-        state = F.relu(self.fc2(state))
+        #state = F.relu(self.fc2(state))
         Q = self.out(state)
 
         return Q

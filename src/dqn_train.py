@@ -1,4 +1,4 @@
-
+from pathlib import Path
 from copy import deepcopy
 import numpy as np
 import pandas as pd
@@ -18,7 +18,7 @@ batch_size = 64
 NETWORK_UPDATE_FREQUENCY = 4
 NETWORK_SYNC_FREQUENCY = 2000
 gamma = 0.99
-episodes = 10000
+episodes = 20000
 replay_buffer_size = 0  #
 
 
