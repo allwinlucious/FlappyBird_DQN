@@ -1,6 +1,10 @@
 # FlappyBird_DQN
+https://user-images.githubusercontent.com/15308488/181632738-7e9f5e6e-bad8-4b0d-b282-e83bb78473d1.mp4
+
 
 ## How to Run?
+
+
 ```
 git clone https://github.com/mewbot97/FlappyBird_DQN.git
 cd FlappyBird_DQN_master/src/
