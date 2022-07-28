@@ -1,6 +1,6 @@
 # FlappyBird_DQN
-https://user-images.githubusercontent.com/15308488/181632738-7e9f5e6e-bad8-4b0d-b282-e83bb78473d1.mp4
 
+https://user-images.githubusercontent.com/15308488/181633477-195a9e7e-c1b7-4db8-bb1f-089347b47cfb.mp4
 
 ## How to Run?
 
